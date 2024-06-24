@@ -53,8 +53,8 @@ const companyLogo = [
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <div className="flex justify-center mt-10">
+    <div className="bg-black text-white">
+      <div className="flex justify-center mt-14">
         {companyLogo.map((businesslogo) => (
           <a key={businesslogo.name} href={`${businesslogo.url}`}>
             <Image
@@ -67,15 +67,15 @@ export default function Home() {
           </a>
         ))}
       </div>
-      <header className="flex justify-center mt-20 font-semibold ">
+      <header className="flex justify-center mt-24 font-semibold ">
         <p>
           Click on a icon below to open in fullscreen and on the youtube page
           that opens next, choose &quot;go to site&quot;
         </p>
       </header>
 
-      <main className="mt-40">
-        <div className={styles.logoGrid}>
+      <main className="mt-40 h-96">
+        <div className="flex justify-center ">
           {logos.map((logo) => (
             <a
               key={logo.name}
