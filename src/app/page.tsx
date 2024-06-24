@@ -8,7 +8,6 @@ import hbomax from '@/app/assets/images/hbomax.png';
 import videoland from '@/app/assets/images/videoland.png';
 import instagram from '@/app/assets/images/instagram.png';
 import wfllogo from '@/app/assets/images/purple_darker.png';
-import whatsappweb from '@/app/assets/images/WhatsApp_icon.png';
 import bmacoffee from '@/app/assets/images/bmc_qr.png';
 
 const logos = [
@@ -36,11 +35,6 @@ const logos = [
     name: 'Instagram',
     src: instagram,
     url: 'https://instagram.com/',
-  },
-  {
-    name: 'Whatsapp Web',
-    src: whatsappweb,
-    url: 'https://web.whatsapp.com/',
   },
   {
     name: 'Buy me a coffee',
