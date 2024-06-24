@@ -1,0 +1,24 @@
+/* Basic styling to replicate the original look and feel */
+.container {
+  background-color: #000;
+  color: #ccc;
+  font-family: Helvetica, Arial;
+}
+
+.logoGrid {
+  display: flex; /* Arrange logos in a row */
+  flex-wrap: wrap; /* Allow wrapping to next line if needed */
+  justify-content: center; /* Center the logos horizontally */
+  gap: 20px; /* Add spacing between logos */
+}
+
+.footer {
+  color: #888; /* Footer text color */
+  text-align: center; /* Center the footer text */
+  margin-top: 20px;
+}
+
+.bannertop {
+  padding: 20px;
+  text-align: center; /* Center the logo */
+}
